@@ -182,7 +182,7 @@ function Structure() {
   return (
     <div className="h-screen flex flex-col items-center p-4">
       <div className="container mt-16">
-      <h1 className="text-3xl font-bold text-center text-blue-100 mt-5 mb-5">Available Files & Folders</h1>
+      <h1 className="text-2xl font-bold text-center text-blue-100 mt-8 mb-10">Available Files & Folders</h1>
         {renderTree(data)}
       </div>
     </div>
